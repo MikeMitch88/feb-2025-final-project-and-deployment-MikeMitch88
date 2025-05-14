@@ -30,12 +30,23 @@ const About = ({ navigate }: AboutProps) => {
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
             Our Mission
           </h2>
+         
           <p className="text-gray-700 dark:text-gray-300 mb-6">
             At Insight Blog, we believe in the power of knowledge sharing. Our mission is to create a platform where ideas can flourish, perspectives can be shared, and readers can find valuable information that enriches their personal and professional lives.
           </p>
           <p className="text-gray-700 dark:text-gray-300">
             We strive to deliver content that is not only informative but also thought-provoking, helping our readers to gain new perspectives and stay informed about the latest trends and developments.
           </p>
+         <a
+  href="https://michaelranda-portfolio.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center px-6 py-3 bg-white text-blue-700 
+  font-semibold rounded-md hover:bg-blue-50 transition-colors duration-300"
+>
+  View Portfolio
+</a>
+
         </div>
         <div className="bg-gradient-to-r from-blue-100 to-indigo-100 dark:from-blue-900/30 dark:to-indigo-900/30 p-8 rounded-xl">
           <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-4">
