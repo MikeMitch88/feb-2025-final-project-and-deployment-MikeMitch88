@@ -68,6 +68,9 @@ const Navbar = ({ navigate, currentPath }: NavbarProps) => {
               </button>
             ))}
           </div>
+                      <a href="https://www.buymeacoffee.com/michaelranda" target="_blank">
+   <img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" alt="Buy Me A Coffee" />
+</a>
           
           <div className="flex items-center space-x-4">
             <button

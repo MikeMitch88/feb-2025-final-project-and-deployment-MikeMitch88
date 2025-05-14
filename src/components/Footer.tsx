@@ -48,6 +48,8 @@ const Footer = ({ navigate }: FooterProps) => {
                 <button onClick={() => navigate('/contact')} className="text-gray-600 hover:text-blue-600 dark:text-gray-300 dark:hover:text-blue-400 transition-colors duration-300">Contact</button>
               </li>
             </ul>
+
+
           </div>
           
           <div>
